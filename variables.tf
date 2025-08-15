@@ -14,6 +14,11 @@ variable "power_profile" {
 }
 
 variable "my_role_arn" {
-  description = "usig role arn"
+  description = "using role arn"
+  type = string
+}
+
+variable "dynamodb_table_name" {
+  description = "dynamodb table name for lock"
   type = string
 }
