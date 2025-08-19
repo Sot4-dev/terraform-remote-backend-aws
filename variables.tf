@@ -8,16 +8,6 @@ variable "bucket_name" {
   type =  string
 }
 
-variable "power_profile" {
-  description = "user profile"
-  type = string
-}
-
-variable "my_role_arn" {
-  description = "using role arn"
-  type = string
-}
-
 variable "dynamodb_table_name" {
   description = "dynamodb table name for lock"
   type = string
